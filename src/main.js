@@ -35,17 +35,17 @@ class Home {
       console.log(post)
       const li = document.createElement("li");
       const img = document.createElement("img");
-      const h2 = document.createElement("h2");
+      const h3 = document.createElement("h3");
       const pArtist = document.createElement("h3");
       const pUsername = document.createElement("p");
       const pPrice = document.createElement("p");
       img.src = post.url
-      h2.textContent = post.title
+      h3.textContent = post.title
       pArtist.textContent = post.artist.artist_name
       pUsername.textContent = post.users.username
       pPrice.textContent = post.price
 
-      this.appendCustom(li, [img, h2, pArtist, pUsername, pPrice])
+      this.appendCustom(li, [img, h3, pArtist, pUsername, pPrice])
 
       this.container.appendChild(li)
 
@@ -62,9 +62,6 @@ class Home {
   cacheDOM(){
     this.container = document.querySelector("#container");
   }
-
-  // CacheDOM(){
-
 }
 
 new Home()

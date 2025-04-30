@@ -1,20 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+
 body{
   font-family: Arial, sans-serif;
-  padding: 8px 24px;
+  padding: 16px 24px;
   height: 100vh;
   box-sizing: border-box;
   margin: 0;
+  background: linear-gradient(#124502, #2DAB05);
 }
 
 ul{
   list-style-type: none;
   padding: 16px;
-  margin: 0px;
   display: flex;
   position: absolute;
   gap: 16px;
   border-radius: 10px;
-  background-color: whitesmoke;
+  background-color: lightgrey;
 }
 
 li{
@@ -22,10 +26,41 @@ li{
   flex-direction: row;
   padding: 16px;
   border-radius: 10px;
-  background-color: lightgrey;
+  background-color: whitesmoke;
 }
 
 img{
   width: 250px;
   border-radius: 10px;
+}
+
+h3{
+  font-family: "Fugaz One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #124502;
+}
+
+p{
+  font-family: Arial, sans-serif;
+}
+
+h1{
+  color: #131313;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.account{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    vertical-align: -0.125em;
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23131313' d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2m0 4c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6m0 14c-2.03 0-4.43-.82-6.14-2.88a9.95 9.95 0 0 1 12.28 0C16.43 19.18 14.03 20 12 20'/%3E%3C/svg%3E");
 }
