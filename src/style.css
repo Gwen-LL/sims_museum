@@ -1,0 +1,31 @@
+body{
+  font-family: Arial, sans-serif;
+  padding: 8px 24px;
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+ul{
+  list-style-type: none;
+  padding: 16px;
+  margin: 0px;
+  display: flex;
+  position: absolute;
+  gap: 16px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+
+li{
+  width: 250px;
+  flex-direction: row;
+  padding: 16px;
+  border-radius: 10px;
+  background-color: lightgrey;
+}
+
+img{
+  width: 250px;
+  border-radius: 10px;
+}
